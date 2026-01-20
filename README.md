@@ -1,5 +1,7 @@
 Dual-Threshold Face Recognition and Secure Access System
+
 Overview
+
 This repository contains a high-security facial recognition system that implements a dual-confidence threshold model. Unlike basic detection scripts, this system provides tiered access control, allowing for "identity verification" at standard ranges and "secure access" only upon near-perfect matches.
 
 Key Features
