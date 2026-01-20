@@ -38,3 +38,7 @@ Classification: Compares data against the trained trainer.yml model.
 Logic Execution: Applies threshold-based conditions to determine access levels.
 
 Security Model
+Distance Score,Status,Resulting Action
+< 50,Verified,Displays user name and match confidence.
+< 40,Secure Match,"Displays password, logs greeting, plays alert, and terminates app."
+>= 50,Unknown,"Prompts user to initiate ""Live Learning"" mode."
